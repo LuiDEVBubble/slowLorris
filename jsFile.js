@@ -17,6 +17,6 @@ let placeAList = () =>
  
     listToPlace = "This is my list of loris: <ol><li>Slow loris<br /> <img src='lorisPhotos/slowLorris.jpg' width='500' height='300'> </li><br />\
     <li>Fast loris<br /> <img src='lorisPhotos/fastLoris.jpg' width='500' height='300'></li><br />\
-    <li>Just-right loris<br /> <img src='lorisPhotos/regularLoris.png' width='500' height='300'></li></ol>;"
+    <li>Just-right loris<br /> <img src='lorisPhotos/regularLoris.png' width='500' height='300'></li></ol>"
     document.getElementById("lorisList").innerHTML = listToPlace;
 }
