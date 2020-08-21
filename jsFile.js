@@ -10,7 +10,13 @@ let expandLorris = () =>
     Slow lorises have a toxic bite, a rare trait among mammals.";
 
     document.getElementById("slowLoris").innerHTML = expandedParagraph;
-    
+}
 
-
+let placeAList = () =>
+{
+ 
+    listToPlace = "<ol><li>Slow loris<br /> <img src='lorisPhotos/slowLorris.jpg' width='500' height='300'> </li><br />\
+    <li>Fast loris<br /> <img src='lorisPhotos/fastLoris.jpg' width='500' height='300'></li><br />\
+    <li>Just-right loris<br /> <img src='lorisPhotos/regularLoris.png' width='500' height='300'></li></ol>;"
+    document.getElementById("lorisList").innerHTML = listToPlace;
 }
